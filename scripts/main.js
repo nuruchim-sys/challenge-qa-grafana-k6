@@ -8,11 +8,11 @@ export let options = {
     scenarios: {
         test: {
             executor: 'constant-arrival-rate',
-            rate: 20,             // Aquí defines los 20 TPS
-            timeUnit: '1s',       // Indica que los 20 son por cada 1 segundo
-            duration: '1m',       // Tiempo que durará la prueba
-            preAllocatedVUs: 10,  // VUs iniciales
-            maxVUs: 50,           // VUs máximos por si la API se pone lenta
+            rate: 20,             
+            timeUnit: '1s',       
+            duration: '1m',       
+            preAllocatedVUs: 10,  
+            maxVUs: 50,           
         },
     },
     thresholds: {
