@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  grafana-k6:
+    build: .
+    container_name: grafana-k6
+    volumes:
+      - ./:/usr/src/app
+    tty: true
+    stdin_open: true
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["sleep infinity"]
+
