@@ -38,3 +38,7 @@ docker exec -it grafana-k6 sh
 Run the script
 ```bash
 k6 run scripts/main.js
+```
+
+### Video
+See the configuration setup tutorial [here](https://drive.google.com/file/d/1Hc6GbiNe3AXiv1VW-rd-_IuwyofInmII/view?usp=drive_link).
